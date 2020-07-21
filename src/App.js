@@ -6,18 +6,61 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header />
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </header>
+    </div>
+  );
+}
+
+function Header() {
+  return(
+    <div className="Header">
+      <header className="Header-header">
+        there
+      </header>
+    </div>
+  )
+}
+
+function Home() {
+  return (
+    <div className="Home">
+      <header className="Home-header">
+        Obi
+      </header>
+    </div>
+  );
+}
+
+function About() {
+  return (
+    <div className="About">
+      <header className="About-header">
+        Wan
+      </header>
+    </div>
+  );
+}
+
+function Projects() {
+  return (
+    <div className="Projects">
+      <header className="Projects-header">
+        
+      </header>
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div className="Contact">
+      <header className="Contact-header">
+        
       </header>
     </div>
   );
