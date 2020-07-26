@@ -1,13 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
+
 import circle from './imgs/circle.png';
+import headshot from './imgs/headshot.jpg';
+import CFG from './papers/CFG.pdf';
+import CFG_capture from './imgs/CFG_capture.png';
+
 import './App.css';
 
 function App() {
   return (
     <Container fluid className="App">
-      <Home />
       <Header />
+      <Home />
       <About />
       <Projects />
       <Contact />
@@ -17,14 +22,16 @@ function App() {
 
 function Header() {
   return (
-    <Row className="bg-dark">
+    <Row className="Header bg-dark">
       <Col xs={12} md={8} lg={6}>
-        <Nav className="rounded bg-light">
-          <Nav.Link className="text-secondary w-25">HOME</Nav.Link>
-          <Nav.Link className="text-secondary w-25">ABOUT</Nav.Link>
-          <Nav.Link className="text-secondary w-25">PROJECTS</Nav.Link>
-          <Nav.Link className="text-secondary w-25">CONTACT</Nav.Link>
-        </Nav>
+        <Navbar className="rounded bg-light">
+          <Nav className="w-100">
+            <Nav.Link className="text-secondary w-25">HOME</Nav.Link>
+            <Nav.Link className="text-secondary w-25">ABOUT</Nav.Link>
+            <Nav.Link className="text-secondary w-25">PROJECTS</Nav.Link>
+            <Nav.Link className="text-secondary w-25">CONTACT</Nav.Link>
+          </Nav>
+        </Navbar>
       </Col>
     </Row>
   )
@@ -32,6 +39,8 @@ function Header() {
 
 function Home() {
   return (
+    <>
+    <Row className="Spacer"></Row>
     <Row className="Home justify-content-center">
       <img src={circle} alt="" width="100%" height="100%" />
       <Col className="text-center my-auto">
@@ -39,6 +48,7 @@ function Home() {
         <h2>Software Developer</h2>
       </Col>
     </Row>
+    </>
   );
 }
 
@@ -46,6 +56,7 @@ function About() {
   return (
     <Row className="About">
       <Col className="text-center my-auto">
+        <img src={headshot} alt="" />
         <h2>Hello.</h2>
         <h5>
           My name is Keith, and I'm about to finish my last year as a student at The Ohio State University.
@@ -64,8 +75,15 @@ function About() {
 function Projects() {
   return (
     <Row className="Projects">
-      <Col className="text-center my-auto">
-        <h2>Projects</h2>
+      <Col  xs={12} md={6} lg={4} className="text-center my-auto">
+        <h5>Capstone</h5>
+      </Col>
+      <Col xs={12} md={6} lg={4} className="text-center my-auto">
+        <h5>Lyfe App</h5>
+      </Col>
+      <Col xs={12} md={6} lg={4} className="text-center my-auto">
+        <h5><a href={CFG}>Exploring Graph-based Methods in Malware Detection</a></h5>
+        <a href={CFG}><img src={CFG_capture} alt="" /></a>
       </Col>
     </Row>
   );
@@ -74,7 +92,7 @@ function Projects() {
 function Contact() {
   return (
     <Row className="Contact bg-dark">
-      <Col>
+      <Col className="text-center my-auto">
         <h2>Contact:</h2>
         <p>email: john24144@gmail.com</p>
       </Col>
