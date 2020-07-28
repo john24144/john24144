@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e6023575b3420ff0b0837149a830fe6",
+    "revision": "630a29f239d5e64427f72b2cbef1f20d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ffc7e300562a29e02e26",
+    "revision": "d4e5cb30205e2114353b",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "690265635dbaa091d1f2",
-    "url": "/portfolio/static/css/main.fb5da24d.chunk.css"
+    "revision": "e55ebf41e6a452880105",
+    "url": "/portfolio/static/css/main.d9b94781.chunk.css"
   },
   {
-    "revision": "ffc7e300562a29e02e26",
-    "url": "/portfolio/static/js/2.a0fd0a17.chunk.js"
+    "revision": "d4e5cb30205e2114353b",
+    "url": "/portfolio/static/js/2.f875d166.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.a0fd0a17.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.f875d166.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "690265635dbaa091d1f2",
-    "url": "/portfolio/static/js/main.7c8e70aa.chunk.js"
+    "revision": "e55ebf41e6a452880105",
+    "url": "/portfolio/static/js/main.2daee33c.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,6 +36,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/CFG_capture.dcb98a1d.png"
   },
   {
+    "revision": "7f7cd02cbeec4e513d3e8718ec6274d0",
+    "url": "/portfolio/static/media/MealPlanner_capture.7f7cd02c.PNG"
+  },
+  {
+    "revision": "56229ebd6c51bf694dda732aa1c76810",
+    "url": "/portfolio/static/media/OSU_COVID_Hub_capture.56229ebd.PNG"
+  },
+  {
     "revision": "9afbd7f8c3ba3240955e51f31580eefa",
     "url": "/portfolio/static/media/Poly-Italic.9afbd7f8.otf"
   },
@@ -48,11 +56,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/background_2.794d3835.png"
   },
   {
+    "revision": "58c2c78f57fc16b204bef106ca2bdb01",
+    "url": "/portfolio/static/media/cascade_sim_capture.58c2c78f.png"
+  },
+  {
     "revision": "79a95dccbe61714b773deb61742f7cec",
     "url": "/portfolio/static/media/circle.79a95dcc.png"
   },
   {
+    "revision": "81a88259a9c7edc5812d98087371ded9",
+    "url": "/portfolio/static/media/email.81a88259.png"
+  },
+  {
+    "revision": "bf9a6b11e3329c4151899bceff51de6c",
+    "url": "/portfolio/static/media/github.bf9a6b11.png"
+  },
+  {
     "revision": "3c98d2bf9b07e5041cef3bbbad5ea2f6",
     "url": "/portfolio/static/media/headshot.3c98d2bf.jpg"
+  },
+  {
+    "revision": "ce5aae11ecfa556a83cc74d392cf10ec",
+    "url": "/portfolio/static/media/linkedin.ce5aae11.png"
   }
 ]);
