@@ -139,7 +139,7 @@ function Portfolio() {
                     <p>
                         This paper aims to simulate and study an "information cascade" on a randomized network.
                     </p>
-                    <a href={OSU_COVID_Hub}><p>Click here to read the full paper.</p></a>
+                    <a href="https://john24144.github.io/cascade_sim/"><p>Click here to read the full paper.</p></a>
                 </>
             )
         }
