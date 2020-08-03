@@ -20,3 +20,9 @@
     -webkit-transition: all 0.10s;
     transition: all 0.10s;
 }
+
+.description {
+    margin-left: 20px;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}

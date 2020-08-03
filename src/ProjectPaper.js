@@ -26,7 +26,7 @@ class ProjectPaper extends React.Component {
             <Col xs={12} md={12} lg={12} className="project-paper text-center my-auto">
                 {this.state.items}
             </Col>
-            <Col xs={12} md lg className="project-paper text-center my-auto">
+            <Col xs={12} md lg className="description">
                 {this.state.description}
             </Col>
             </Row>
