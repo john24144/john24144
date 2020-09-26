@@ -64,7 +64,7 @@ function About() {
           <img src={headshot} alt="" />
           <h2>Hello.</h2>
           <h5>
-            My name is Keith, and I'm about to finish my last year as a student at The Ohio State University.
+            My name is Keith, and I've just graduated from The Ohio State University.
             So, now I'm looking for an entry level position that will test my abilities as a software developer.
             Here's what you can count on me for:
           </h5>
