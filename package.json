@@ -1,5 +1,5 @@
 {
-  "homepage": "http://john24144.github.io/portfolio",
+  "homepage": "http://john24144.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,7 @@
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-native": "^0.63.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
