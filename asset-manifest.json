@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/john24144/static/css/main.cd362fc3.chunk.css",
-    "main.js": "/john24144/static/js/main.2ef58776.chunk.js",
-    "main.js.map": "/john24144/static/js/main.2ef58776.chunk.js.map",
+    "main.css": "/john24144/static/css/main.025293ad.chunk.css",
+    "main.js": "/john24144/static/js/main.94b8377e.chunk.js",
+    "main.js.map": "/john24144/static/js/main.94b8377e.chunk.js.map",
     "runtime-main.js": "/john24144/static/js/runtime-main.d3c9d60e.js",
     "runtime-main.js.map": "/john24144/static/js/runtime-main.d3c9d60e.js.map",
     "static/css/2.43079d8c.chunk.css": "/john24144/static/css/2.43079d8c.chunk.css",
-    "static/js/2.1b844cde.chunk.js": "/john24144/static/js/2.1b844cde.chunk.js",
-    "static/js/2.1b844cde.chunk.js.map": "/john24144/static/js/2.1b844cde.chunk.js.map",
+    "static/js/2.ad0111f6.chunk.js": "/john24144/static/js/2.ad0111f6.chunk.js",
+    "static/js/2.ad0111f6.chunk.js.map": "/john24144/static/js/2.ad0111f6.chunk.js.map",
     "index.html": "/john24144/index.html",
-    "precache-manifest.38d041f89b10b7575e16e55e7e18e5be.js": "/john24144/precache-manifest.38d041f89b10b7575e16e55e7e18e5be.js",
+    "precache-manifest.0fb04f175b0068ecb348c990b9ed2c2c.js": "/john24144/precache-manifest.0fb04f175b0068ecb348c990b9ed2c2c.js",
     "service-worker.js": "/john24144/service-worker.js",
     "static/css/2.43079d8c.chunk.css.map": "/john24144/static/css/2.43079d8c.chunk.css.map",
-    "static/css/main.cd362fc3.chunk.css.map": "/john24144/static/css/main.cd362fc3.chunk.css.map",
-    "static/js/2.1b844cde.chunk.js.LICENSE.txt": "/john24144/static/js/2.1b844cde.chunk.js.LICENSE.txt",
+    "static/css/main.025293ad.chunk.css.map": "/john24144/static/css/main.025293ad.chunk.css.map",
+    "static/js/2.ad0111f6.chunk.js.LICENSE.txt": "/john24144/static/js/2.ad0111f6.chunk.js.LICENSE.txt",
     "static/media/CFG.pdf": "/john24144/static/media/CFG.5fee0136.pdf",
     "static/media/CFG_capture.png": "/john24144/static/media/CFG_capture.dcb98a1d.png",
+    "static/media/GarageSale_capture.PNG": "/john24144/static/media/GarageSale_capture.953af812.PNG",
     "static/media/MealPlanner_capture.PNG": "/john24144/static/media/MealPlanner_capture.7f7cd02c.PNG",
     "static/media/OSU_COVID_Hub_capture.PNG": "/john24144/static/media/OSU_COVID_Hub_capture.56229ebd.PNG",
     "static/media/OSU_COVID_Info_Hub.pdf": "/john24144/static/media/OSU_COVID_Info_Hub.e4b0da27.pdf",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.d3c9d60e.js",
     "static/css/2.43079d8c.chunk.css",
-    "static/js/2.1b844cde.chunk.js",
-    "static/css/main.cd362fc3.chunk.css",
-    "static/js/main.2ef58776.chunk.js"
+    "static/js/2.ad0111f6.chunk.js",
+    "static/css/main.025293ad.chunk.css",
+    "static/js/main.94b8377e.chunk.js"
   ]
 }
