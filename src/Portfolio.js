@@ -11,11 +11,41 @@ import OSU_COVID_Hub_capture from './imgs/OSU_COVID_Hub_capture.PNG';
 import MealPlanner_capture from './imgs/MealPlanner_capture.PNG';
 import cascade_sim_capture from './imgs/cascade_sim_capture.png';
 import Streamer_Hub_capture from './imgs/Streamer_Hub_capture.PNG';
+import GarageSale_capture from './imgs/GarageSale_capture.PNG';
 
 import './css/Portfolio.css';
 
 function Portfolio() {
     var projects = [
+        {
+            name: "Garage Sale Application",
+            link: "",
+            capture: GarageSale_capture,
+            description: (
+                <>
+                    <h2>Garage Sale Application</h2>
+                    <h5> LAMP Stack (Linux, Apache, Mariadb, PHP)</h5>
+                    <p>
+                        Garage Sale Application is a website for selling items with a focus on physical garage sales.
+                        <li>
+                            Users each have secure individual accounts for storing data.
+                        </li>
+                        <li>
+                            Users can create garage sales with a name, location, and various items.
+                        </li>
+                        <li>
+                            Users can add items to their sales with names, prices, and amounts.
+                        </li>
+                        <li>
+                            Users can view other garage sales near their location.
+                        </li>
+                        <li>
+                            Users can exchange messages with other users.
+                        </li>
+                    </p>
+                </>
+            )
+        },
         {
             name: "Meal Planner",
             link: "",
