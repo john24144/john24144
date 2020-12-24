@@ -19,7 +19,7 @@ function Portfolio() {
     var projects = [
         {
             name: "Garage Sale Application",
-            link: "",
+            link: "http://garagesale.epizy.com/",
             capture: GarageSale_capture,
             description: (
                 <>
@@ -43,6 +43,7 @@ function Portfolio() {
                             Users can exchange messages with other users.
                         </li>
                     </p>
+                    <a href="http://garagesale.epizy.com/"><p>Click here to see the site in action!</p></a>
                 </>
             )
         },
