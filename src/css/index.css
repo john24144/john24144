@@ -1,47 +1,86 @@
-/* Colors:
- *      Name                    Hex
- *      Primary (dark blue)     #23615f
- *      Secondary (orange)      #f7634f
- */
-
 body {
   font-family: Poly, sans-serif;
+  background-image: url("../images/background.png");
+  background-repeat: true;
 }
 
 h1 {
   color: white;
+  padding: 5px 0px;
 }
 
 h2 {
-  height: 80px;
-  color: #f7634f;
+  color:peru;
+  padding: 5px 0px;
+}
+
+h3 {
+  color: white;
+  padding: 5px 0px;
 }
 
 h4 {
   color: black;
+  padding: 5px 0px;
 }
 
 h5 {
-  color: #23615f;
+  color: teal;
+  padding: 5px 0px;
 }
 
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(10vh);
-  visibility: hidden;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
+#Home {
+  padding: 200px 5%;
+  background-color:teal;
 }
 
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
+#About {
+  padding: 200px 5%;
+}
+
+#Projects {
+  padding: 200px 5%;
+}
+
+#Papers {
+  padding: 200px 5%;
+}
+
+#Contact {
+  padding: 200px 5%;
+  background-color:teal;
+}
+
+.rotating {
+  animation: rotation 40s infinite linear;
+  overflow: hidden;
+}
+
+.headshot {
+  border: 5px solid teal;
+  border-radius: 50%;
+}
+
+.project {
+  padding: 50px 5%;
+}
+
+.capture {
+  max-height: 500px;
+  max-width: 500px;
+  border: 2px solid teal;
+  border-radius: 5%;
+}
+
+.contactLink {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 10px;
 }
 
 @font-face {
   font-family: 'Poly';
-  src: local('Poly'), url(../fonts/Poly-Regular.otf) format('truetype');
+  src: local('Poly'), url(../../static/fonts/Poly-Regular.otf) format('truetype');
 }
 
 @keyframes rotation {
